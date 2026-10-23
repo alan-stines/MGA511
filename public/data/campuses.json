@@ -1,0 +1,7 @@
+[
+  {"id":"macon","name":"Macon","county":"Bibb","lat":32.8088,"lng":-83.7321,"address":"100 University Parkway"},
+  {"id":"warner-robins","name":"Warner Robins","county":"Houston","lat":32.6175,"lng":-83.5996,"address":"100 University Boulevard"},
+  {"id":"cochran","name":"Cochran","county":"Bleckley","lat":32.3875,"lng":-83.3536,"address":"1100 Second Street SE"},
+  {"id":"dublin","name":"Dublin","county":"Laurens","lat":32.5395,"lng":-82.9484,"address":"1900 Bellevue Road"},
+  {"id":"eastman","name":"Eastman","county":"Dodge","lat":32.2165,"lng":-83.1298,"address":"71 Airport Road"}
+]
