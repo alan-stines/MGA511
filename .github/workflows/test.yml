@@ -1,0 +1,25 @@
+name: Project checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check JavaScript syntax
+        run: |
+          node --check server.js
+          node --check feed.js
+          node --check public/app.js
+          node --check public/regional-tiles.js
+      - name: Run tests
+        run: npm test

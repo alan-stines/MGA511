@@ -2,6 +2,10 @@
 
 Map-first local prototype for Middle Georgia State University Public Safety. Includes Macon, Warner Robins, Cochran, Dublin, and Eastman, county boundaries, campus proximity filters (5/15/30 straight-line miles), traffic categories, search, and separate statewide/regional notices.
 
+## Project status
+
+Prototype with demonstration traffic until a GDOT API key is configured. Not yet validated for operational use. GitHub Actions runs syntax checks and tests on pushes and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidance. No software license has been selected; university branding and third-party geographic data retain their respective rights and terms.
+
 ## Run
 
 Requires Node.js 22 or newer. No npm dependencies or installation needed.
